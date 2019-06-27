@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Template Greensock</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <style>
+        header{
+            margin:0 auto;
+            width: 1600px;
+            height: 800px;
+            background-color: rgb(211, 211, 211);
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .block{
+            width: 200px;
+            height: 200px;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 2em; 
+        }
+        .one{
+            background-color: blueviolet;
+        }
+        .two{
+            background-color: rgb(43, 168, 226);
+        }
+        .three{
+            background-color: rgb(80, 226, 43);
+        }
+        .four{
+            background-color: rgb(226, 43, 43);
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- <h3>Animations with Tweens</h3>
+    <header>
+        <div class="block one tween">ONE</div>
+        <div class="block two tween">TWO</div>
+        <div class="block three tween">THREE</div>
+        <div class="block four tween">FOUR</div>
+    </header> -->
+
+    <h3>Animation with Timeline</h3>
+    <header>
+        <div class="block one tl">ONE</div>
+        <div class="block two tl">TWO</div>
+        <div class="block three tl">THREE</div>
+        <div class="block four tl">FOUR</div>
+    </header>
+    
+
+    <!-- Links to external libraries-->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineLite.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <!-- My own code -->
+    <script src="04_callback.js"></script>  
+</body>
+</html>

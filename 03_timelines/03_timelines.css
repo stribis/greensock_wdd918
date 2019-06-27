@@ -1,0 +1,24 @@
+/* === Small CSS Reset === */
+*{
+  margin: 0;
+  padding: 0;
+}
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+section{
+  width: 100vw;
+  height: 800px;
+  background-color: rgb(124, 124, 124);
+}
+#block{
+  background-color: lightcoral;
+  width: 175px;
+  height: 175px;
+}
+#circle{
+  background-color: lightgreen;
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+}
